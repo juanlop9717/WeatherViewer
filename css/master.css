@@ -1,0 +1,47 @@
+body{
+	background-image: url(../img/wall.jpg);
+	background-color: red;
+}
+
+.row{
+	margin-top: 200px;
+	
+}
+
+h1,h2{
+	font-weight: 1000;
+	text-shadow: 5px 5px rgb(0,0,0,.4);
+	color: GoldenRod ;
+}
+
+h1{
+	font-size: 8em;
+	opacity: .7;
+}
+
+*{
+	color: black;
+}
+
+#temp,#change{
+	font-size: 6em;
+	color: IndianRed;
+	opacity: 0.8;
+	text-shadow: 5px 5px rgb(0,0,0,.4);
+}
+
+#changec,#changef{
+	cursor: pointer;
+	font-size: 3em;
+}
+
+#changec:hover,#changef:hover{
+	color: Tomato;
+  
+
+.prod{
+	position: absolute;
+	color: grey;
+	opacity: .8;
+	bottom: 0;
+}
